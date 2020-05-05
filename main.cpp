@@ -131,6 +131,10 @@ public:
 
         return (nums_to_add_1 * nums_to_add_2);
     }
+
+    ~Calculator() {
+        delete[] elem;
+    }
     
 };
 
