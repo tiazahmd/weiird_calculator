@@ -41,21 +41,37 @@ calc.weird_divide(3);
 
 **Hybrid Mult Add**: The formula for this function is (for 5 numbers) `(a * b * c) + (d * e)` - so it adds the multiplied result of the first `x` numbers to the multiplied result of the rest of the numbers. Usage:
 ```C++
+/* Multiply the firs 3 numbers and 
+the last 2 numbers separately, then
+add them together. */
+
 calc.hybrid_mult_add(3);
 ```
 
 **Hybrid Mult Sub**: This does something similar to Hybrid Mult Add, but instead, it subtracts the remaining miltipled numbers from the first `x` multiplied numbers. Usage:
 ```C++
+/* Multiply the first 3 numbers and
+the last 2 numbers separately, then
+subtract from one another. */
+
 calc.hybrid_mult_sub(3);
 ```
 
 **Hybrid Mult Div**: This does something similar to Hybrid Mult Add and Sub, but instead, it divides the first `x` multiplied numbers with the remaining multiplied numbers. Usage:
 ```C++
+/* Multiply the first 3 numbers and
+the last 2 numbers separately, then
+divide by one another. */
+
 calc.hybrid_mult_div(3);
 ```
 
 **Hybrid Add Mult**: This is kind of the opposite of Hybrid Mult Add. It adds the first `x` numbers and the remaining numbers and then multiplies them together. So for 5 numbers, the formula is: `(a + b + c) * (d + e)`.
 ```C++
+/* Add the first 3 numbers and
+then add the last two numbers. Now
+Multiply the the two results. */
+
 calc.hybrid_add_mult(3);
 ```
 
